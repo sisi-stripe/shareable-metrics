@@ -41,7 +41,7 @@ function formatTooltip(value) {
 const WALLPAPERS = [
   {
     id: 'wave1',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-01_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-01_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(245,200,0,0.85)',   darkColor: 'rgba(180,80,255,0.90)',  top: '-8%',  left: '-5%',  size: 640, anim: 'floatA', dur: '14s' },
@@ -51,7 +51,7 @@ const WALLPAPERS = [
   },
   {
     id: 'wave2',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-02_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-02_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(240,48,144,0.85)',  darkColor: 'rgba(160,20,220,0.92)',  top: '-5%',  right: '-6%', size: 620, anim: 'floatB', dur: '16s' },
@@ -61,7 +61,7 @@ const WALLPAPERS = [
   },
   {
     id: 'wave3',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-03_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-03_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(245,160,32,0.85)',  darkColor: 'rgba(200,20,160,0.90)',  top: '10%',  left: '-8%',  size: 600, anim: 'floatC', dur: '17s' },
@@ -71,7 +71,7 @@ const WALLPAPERS = [
   },
   {
     id: 'wave4',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-04_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-04_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(245,200,0,0.85)',   darkColor: 'rgba(220,30,120,0.90)',  top: '-6%',  left: '20%',  size: 560, anim: 'floatE', dur: '19s' },
@@ -81,7 +81,7 @@ const WALLPAPERS = [
   },
   {
     id: 'wave5',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-05_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-05_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(240,128,32,0.85)',  darkColor: 'rgba(40,60,220,0.92)',   bottom: '-5%', left: '10%', size: 640, anim: 'floatD', dur: '16s' },
@@ -91,7 +91,7 @@ const WALLPAPERS = [
   },
   {
     id: 'wave6',
-    thumb: '/src/assets/waves/STRIPE_BRAND-STUDIO_WAVE-06_STILL_ALPHA.png',
+    thumb: '/assets/waves/STRIPE_BRAND-STUDIO_WAVE-06_STILL_ALPHA.png',
     bg: '#ffffff',
     blobs: [
       { color: 'rgba(245,197,32,0.88)',  darkColor: 'rgba(100,20,220,0.92)',  top: '-6%',  left: '-4%',  size: 640, anim: 'floatA', dur: '13s' },
@@ -243,7 +243,7 @@ function DashboardView({ onShare }) {
 
       <div style={dashStyles.topBar}>
         <div style={dashStyles.topBarLeft}>
-          <img src="/src/assets/Stripe wordmark - Slate - Small.png" alt="Stripe" style={{ width: 56, height: 'auto' }} />
+          <img src="/assets/Stripe wordmark - Slate - Small.png" alt="Stripe" style={{ width: 56, height: 'auto' }} />
         </div>
         <div style={dashStyles.topBarRight}>
           <span style={dashStyles.dashLabel}>Dashboard</span>
@@ -329,7 +329,7 @@ function ShareConfigView({ onBack }) {
     btnBg:         isDark ? 'rgba(255,255,255,0.08)' : 'rgba(255,255,255,0.7)',
     btnBorder:     isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.12)',
     btnColor:      isDark ? '#e5e5e5' : '#1a1f2e',
-    logoSrc:       isDark ? '/src/assets/Stripe wordmark - White - Small.png' : '/src/assets/Stripe wordmark - Slate - Small.png',
+    logoSrc:       isDark ? '/assets/Stripe wordmark - White - Small.png' : '/assets/Stripe wordmark - Slate - Small.png',
   }
 
   function handleCopy() {
